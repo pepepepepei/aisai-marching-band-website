@@ -546,7 +546,7 @@ form th {
 }
 
 /* スマホ */
-@media screen and (max-width:640px) {
+@media only screen and (max-width:640px) {
   :root {
     --ratio: 1.414;
   }
@@ -647,7 +647,7 @@ form th {
 }
 
 /* スマホとタブレット */
-@media screen and (max-width:960px) {
+@media only screen and (max-width:960px), print {
   nav {
     width: 100%;
     position: fixed;
@@ -785,7 +785,7 @@ form th {
 }
 
 /* タブレット */
-@media screen and (min-width: 640px) and (max-width: 960px) {
+@media only screen and (min-width: 640px) and (max-width: 960px), print {
   .menu-content {
     width: 50%;
   }
@@ -800,7 +800,7 @@ form th {
 }
 
 /* タブレットとPC */
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 641px), print {
   :root {
     --ratio: 1.618;
   }
@@ -916,7 +916,7 @@ form th {
 }
 
 /* PC */
-@media screen and (min-width: 961px) {
+@media only screen and (min-width: 961px) {
   main {
     margin-right: 240px;
   }
