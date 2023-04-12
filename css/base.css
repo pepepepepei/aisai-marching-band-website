@@ -883,6 +883,7 @@ print {
   #news {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
     align-items: flex-start;
     gap: 1.5rem;
   }
